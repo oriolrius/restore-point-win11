@@ -1,0 +1,34 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20231123075052
+Username: D0\oriol
+RunAs User: D0\oriol
+Configuration Name: 
+Machine: D0 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 6180
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is transcript.txt
+[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m  restore-point-win11 [0m[38;2;255;71;156m[0m[0m[38;2;255;251;56;49m[7m[0m[48;2;255;251;56m[38;2;25;53;73m main ≡  ?1 [0m[48;2;255;255;102m[38;2;255;251;56m[0m[48;2;255;255;102m[38;2;255;255;255m  [0m[48;2;46;149;153m[38;2;255;255;102m[0m[48;2;46;149;153m[38;2;255;255;255m  [0m[38;2;46;149;153m[0m[K[0J
+[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m  restore-point-win11 [0m[38;2;255;71;156m[0m[0m[38;2;255;251;56;49m[7m[0m[48;2;255;251;56m[38;2;25;53;73m main ≡  ?1 [0m[48;2;255;255;102m[38;2;255;251;56m[0m[48;2;255;255;102m[38;2;255;255;255m  [0m[48;2;46;149;153m[38;2;255;255;102m[0m[48;2;46;149;153m[38;2;255;255;255m  [0m[38;2;46;149;153m[0m[K[0J
+PS># Run the Checkpoint-Computer command
+[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m  restore-point-win11 [0m[38;2;255;71;156m[0m[0m[38;2;255;251;56;49m[7m[0m[48;2;255;251;56m[38;2;25;53;73m main ≡  ?1 [0m[48;2;255;255;102m[38;2;255;251;56m[0m[48;2;255;255;102m[38;2;255;255;255m  [0m[48;2;46;149;153m[38;2;255;255;102m[0m[48;2;46;149;153m[38;2;255;255;255m  [0m[38;2;46;149;153m[0m[K[0J
+PS>Checkpoint-Computer -Description "Automatic Restore Point"
+WARNING: A new system restore point cannot be created because one has already been created within the past 1440 minutes. The frequency of restore point creation can be changed by creating the DWORD value 'SystemRestorePointCreationFrequency' under the registry key 'HKLM\Software\Microsoft\Windows NT\CurrentVersion\SystemRestore'. The value of this registry key indicates the necessary time interval (in minutes) between two restore point creation. The default value is 1440 minutes (24 hours).
+[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m  restore-point-win11 [0m[38;2;255;71;156m[0m[0m[38;2;255;251;56;49m[7m[0m[48;2;255;251;56m[38;2;25;53;73m main ≡  ?1 [0m[48;2;255;255;102m[38;2;255;251;56m[0m[48;2;255;255;102m[38;2;255;255;255m  [0m[48;2;46;149;153m[38;2;255;255;102m[0m[48;2;46;149;153m[38;2;255;255;255m  [0m[38;2;46;149;153m[0m[K[0J
+[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m  restore-point-win11 [0m[38;2;255;71;156m[0m[0m[38;2;255;251;56;49m[7m[0m[48;2;255;251;56m[38;2;25;53;73m main ≡  ?1 [0m[48;2;255;255;102m[38;2;255;251;56m[0m[48;2;255;255;102m[38;2;255;255;255m  [0m[48;2;46;149;153m[38;2;255;255;102m[0m[48;2;46;149;153m[38;2;255;255;255m  [0m[38;2;46;149;153m[0m[K[0J
+PS># Stop capturing the transcript
+[38;2;255;71;156m[0m[48;2;255;71;156m[38;2;255;255;255m  restore-point-win11 [0m[38;2;255;71;156m[0m[0m[38;2;255;251;56;49m[7m[0m[48;2;255;251;56m[38;2;25;53;73m main ≡  ?1 [0m[48;2;255;255;102m[38;2;255;251;56m[0m[48;2;255;255;102m[38;2;255;255;255m  [0m[48;2;46;149;153m[38;2;255;255;102m[0m[48;2;46;149;153m[38;2;255;255;255m  [0m[38;2;46;149;153m[0m[K[0J
+PS>Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231123075052
+**********************
